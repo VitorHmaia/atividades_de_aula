@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    color: #fff;
+    background-image: url("../image/back[.jpg");
+}
+
+header{
+    background-color: rgb(40, 0, 70);
+    align-items: center;
+    box-shadow: -5px 5px 15px rgb(150, 50 ,150);
+    width: 100%;
+
+}
+
+header li{
+    transition: 0.3s;
+}
+
+header li:hover{
+    font-size: large;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+   
+    background-image: linear-gradient(to right, rgba(20, 0, 30, 0.6), rgba(40, 0, 70, 0.6), rgba(20, 0, 30, 06));
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 0, 70);
+    padding: 10px;
+    box-shadow: -5px 0px 15px rgb(150, 50 ,150);
+}
+
+.menu ul, a{
+    text-decoration: none;
+}
+
+.menu ul{
+    justify-content: space-between;
+    margin-right: 15%;
+    gap: 200px
+}
+
+
+.menu a{
+    color: antiquewhite;
+}
+
+#contato{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#contato form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#contato h2{
+        text-align: center;
+}
+
+#nome{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#email{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#mensagem{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#sobre{
+    box-sizing: content-box;
+    box-shadow: 5px 3px 10px rgb(150, 50 ,150) ;
+    padding: 20px;
+    background-color: rgba(82, 12, 82, 0.8);
+    margin-top: 20px;
+    transition: 0.5s;
+    border-radius: 3px;
+    width: 600px;
+    margin-top: 5%;
+    letter-spacing: 2px;
+    line-height: 200%;
+    text-align: justify;
+    
+}
+
+#sobre h2{
+    text-align: center;
+    padding: 3%;
+}
+
+#sobre:hover{
+    box-shadow: 0px 0px 25px rgb(150, 50 ,150) ;
+    padding: 25px;
+    background-color: rgba(82, 12, 82, 1);
+}
+
+.content{
+    display: flex;
+    gap: 20px;
+}
+
+#linguagens{
+    overflow: hidden;
+    transition: 1s ease;
+    margin-top: 5%;
+    letter-spacing: 1px;
+    line-height: 200%;
+    align-items: center;
+    padding-bottom: 50px;
+    height: 0px;
+    color: rgba(255, 255, 255, 0);
+    margin: 0;
+}
+
+#linguagens:hover{
+    margin: 10px;
+    opacity:100%;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    height: 230px;
+    box-shadow: 0px 0px 25px rgb(150, 50 ,150) ;
+    color: rgba(255, 255, 255, 1);
+    transition: 1s ease;
+}
+
+#linguagens h2{
+    text-align: center;
+    padding: 5%;
+}
+
+.ling{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#foto{
+    width: 15%;
+    height: 15%;
+    filter: invert(1);
+}
+
+#inicio{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#inicio h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#inicio p{
+    padding-top: 20px;
+}
+
+.logo{
+    width: 30px;
+    margin-left: 5%;
+    filter: invert(1)
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+#imagem{
+    width: 110px;
+    margin-top: 10%;
+}
+
+#botao{
+    width: 50%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(2, 207, 57);
+    transition: 0.5s;
+}
+#botao:hover{
+    padding: 20px;
+    font-size: large;
+    box-shadow: 0px 0px 10px rgb(2, 207, 57);
+}

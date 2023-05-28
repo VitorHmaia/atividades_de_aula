@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/icon" href="./image/logo2030.png">
+    <title>HMTL5</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu">
+            <img class="logo" src="./image/logo.png" alt="Logo">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#linguagens">Linguagens</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h1>Welcome!</h1>
+            <p>Aqui você encontrará informações sobre o uso de HTML5 semântico para desenvolvimento web.</p>
+        </section>
+
+        <section id="sobre">
+            <h2> Sobre o HTML5 semântico</h2>
+            <div class="content">
+            <p>O HTML5 semântico é uma evolução da linguagem HTML que permite aos desenvovedores criar estruturas mais significativas e ricas em conteúdo para seus sites e aplicativos.</p>
+           
+            <div class="image">
+                <img id="imagem" src="./image/logo 2398.png" alt="html5">
+            </div>
+            </div>
+            </section>
+        </section>
+
+        <section id="linguagens">
+            <h2>Outras linguagens associadas</h2>
+            <div class="ling">
+                <ul>
+                    <li>HiperText Markup Language - HTML</li>
+                    <li>Cascading Style Sheet - CSS</li>
+                    <li>JavaScript - JS</li>
+                </ul>
+                <img id="foto" src="./image/logo.png" alt="logo">
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Fale conosco</h2><br>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" id="email" placeholder="Digite seu email">
+                <label for="mensagem">Mensagem::</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Digite seu texto"></textarea>
+                <div class="contato">
+                   <input type="checkbox" name="checkbox" id="checkbox">
+                   <label for="checkbox">Desejo receber informações sobre HTML5 por e-mail</label>
+                </div>
+                <button type="submit" id="botao">
+                    <h3>Enviar</h3>
+                </button>
+            </form>
+        </section>
+        </main>
+        <footer>
+            <p>Todos os direitos reservados - André Caçulinha (1966)</p>
+        </footer>
+</body>
+
+</html>
